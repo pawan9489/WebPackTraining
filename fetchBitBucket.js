@@ -103,14 +103,14 @@ function writeToFile(filePath,json) {
 
 (async function() {
     // console.time('test')
-    const user_name = 'pkgubba'
-    const password = 'Monday12'
-    const rest_api = '/rest/api/1.0/'
-    const projests = 'projects/DUM/'
-    const repos = 'repos/platform/'
-    let action = 'browse/'
-    let folder_path = 'testautomation/selenium/lux_framework/features/ipuk' ///ipuk/work_in_progress/buzzards/Emma
-    let branch = '?at=refs/heads/IPUK_LUX_MASTER'
+    const user_name = '*********'
+    const password = '**********'
+    const rest_api = '************'
+    const projests = '************'
+    const repos = '************'
+    let action = '************'
+    let folder_path = '************' ///ipuk/work_in_progress/buzzards/Emma
+    let branch = '************'
     try {
         await fetchAll(rest_api,projests,repos,action,folder_path,branch,user_name,password)
         // console.timeEnd('test')
